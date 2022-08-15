@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700;800&display=swap');
+
+.body{
+    background-color:#161618 ;
+    position: relative !important;
+}
+.header-background-color{
+    background-color:#161618 !important;
+   
+}
+.main-background{
+    background-color:#161618 ;
+}
+.navbar-nav > .active > a {
+   color: white !important;
+}
+.nav-link {
+    font: #878787;
+}
+.navbar-dark .navbar-toggler{ 
+    border-color: #161618 !important;
+}
+
+.navbar-title{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 500;
+    color: #B2B2B2 !important;
+    text-decoration: none;
+    transition-duration: 0.15s;
+    margin-bottom: 0 !important;
+}
+.navbar-title:hover{
+    color: white !important;
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+.hi-styling{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800 !important;
+}
+.title-styling
+
+    h4{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    }
+    h4:before,
+    h4:after{
+        content: "";
+        flex: 1 1;
+        border-bottom: 3px solid #890000;
+        margin: auto;
+    }
+    h4:before{
+        margin-right: 15px;
+    }
+    h4:after{
+        margin-left: 15px;
+    }
+.about-styling{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300 !important;
+    color: #C8C8C8;
+}
+
+.progress_bar .pro-bar {
+    background: hsl(0, 0%, 97%);
+    box-shadow: 0 1px 2px hsla(0, 0%, 0%, 0.1) inset;
+    height:4px;
+    margin-bottom: 12px;
+    margin-top: 50px;
+    position: relative;
+}
+.progress_bar .progress_bar_title{
+    font-family: 'Open Sans', sans-serif;
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+    font-weight: 300;
+    position: relative;
+    top: -28px;
+    z-index: 1;
+}
+.progress_bar .progress_number{
+    float: right;
+    margin-top: -1px;
+}
+.progress_bar .progress-bar-inner {
+
+    background-color: hsl(0, 0%, 88%);
+    display: block;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: width 1s linear 0s;
+}
+.progress_bar .progress-bar-inner:before {
+    content: "";
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 50%;
+    width: 4px;
+    height: 4px;
+    position: absolute;
+    right: 1px;
+    top: 0;
+    z-index: 1;
+}
+.progress_bar .progress-bar-inner:after {
+    content: "";
+    width: 14px;
+    height: 14px;
+    background-color: inherit;
+    border-radius: 50%;
+    position: absolute;
+    right: -4px;
+    top: -5px;
+}
+.card-color{
+    border-radius: 40px !important;
+    background-color: rgb(212, 30, 30) !important;
+    transition-duration: 0.4s !important;
+}
+
+.card-color:hover{
+    cursor: pointer;
+   
+}
+.card-title-style{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600 !important;
+}
+.technology-style{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500 !important;
+}
+.input-style{
+    border-radius: 0 !important; 
+    border: none !important; 
+    border-bottom: 1px solid white !important;
+    background-color:#161618 !important;
+}
+input{
+    font-family:'Montserrat', sans-serif !important ;
+    font-weight: 500 !important; 
+}
+input::placeholder{
+    font-family:'Montserrat', sans-serif !important ;
+    font-weight: 500 !important; 
+}
+label{
+    font-family:'Montserrat', sans-serif !important ;
+    font-weight: 600 !important; 
+}
+textarea{
+    font-family:'Montserrat', sans-serif !important ;
+    font-weight: 500 !important; 
+}
+button{
+    font-family:'Montserrat', sans-serif !important ;
+    font-weight: 500 !important; 
+}
+.invalid-feedback{
+    font-family:'Montserrat', sans-serif !important ;
+    font-weight: 500 !important; 
+}
+.valid-feedback{
+    font-family:'Montserrat', sans-serif !important ;
+    font-weight: 500 !important; 
+}
+input:focus{
+    box-shadow: none !important;
+}
+textarea:focus{
+    box-shadow: none !important;
+}
+button:focus{
+    box-shadow: none !important;
+}
+.icon-hover{
+    transition-duration: 1.0s;
+}
+.icon-hover:hover{
+    color: white !important;
+}
+.talk-style{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 500;
+}
+.copyright-style{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 300;
+}
+.underline-style{
+    text-decoration: underline 1px solid white;
+    text-underline-offset: 3px;
+}
+.skill-card{
+    border-radius: 25px !important;
+    background-color: #1F1F21 !important;
+    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    transition-duration: 0.5s;
+}
+.to-do-image{
+    filter: drop-shadow(0 0 10px rgb(66, 66, 66)) !important;   
+}
+.btn{
+    box-shadow: none !important;
+}
+
+#education {
+    background-color: black;
+    color: white;
+    padding: 3em 1em;
+}
+
+#education-content {
+    margin: auto;
+
+    max-width: 1024px;
+}
+
+#edu-title {
+    display: flex;
+}
+
+
+#education h2 {
+    flex: 100%;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+#school1-content, #school2-content {
+    display: flex;
+}
+
+#school1-year, #school2-year {
+    flex: 15%;
+    background-color:red;
+    color: white;
+    text-align: center;
+    padding: 0.5em 1em 0em 1em;
+}
+
+#school1-info, #school2-info {
+    flex: 85%;
+    border: solid;
+    border-color:red;
+    padding: 0.5em 1em 0em 2.5em;
+}
+
+.school-name {
+    font-size: 1.2em;
+    font-weight: bold;
+    color:green;
+}
+
+.school-name a {
+    color:green;
+    text-decoration: none;
+}
+
+.school-name a:hover {
+    color:green;
+    text-decoration: underline;
+}
+
+.school-name a:visited {
+    color:green;
+}
+
+#top {
+    display: flex;
+    background-color: #161618 ;
+    color: white;
+    width: 100%;
+}
+
+#top a {
+    background-color: red;
+    color: white;
+    padding: 0.8em 2.75em;
+    text-decoration: none;
+    font-size: 2em;
+    border-radius: 10px;
+}
+
+#top p {
+    font-size: 1.5em;
+}
+
+
+#links {
+    width: 100%;
+}
+
+#top a:hover {
+    background-color: green;
+}
+
+#top a:visited {
+    color: white;
+}
+
